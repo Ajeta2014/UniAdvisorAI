@@ -1,7 +1,7 @@
 
 import streamlit as st
-from core.cursos import cursos
-from core.calculo_score import calcular_score
+from cursos import cursos
+from calculo_score import calcular_score
 
 st.set_page_config(page_title="🎓 UniAdvisorAI", layout="wide")
 st.title("🎓 UniAdvisorAI - Escolha o Curso Ideal")
